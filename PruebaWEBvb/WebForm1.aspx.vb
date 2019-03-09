@@ -18,7 +18,7 @@ Public Class WebForm1
 
             GridView1.DataSource = dt
             GridView1.DataBind()
-            Label1.Text = String.Format("Total datos en la tabla: {0}", dt.Rows.Count)
+            Label1.Text = String.Format("Total datos en la tabla 1: {0}", dt.Rows.Count)
 
         Catch ex As Exception
             Label1.Text = "Error: " & ex.Message
